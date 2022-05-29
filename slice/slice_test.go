@@ -83,7 +83,7 @@ func TestInsert(t *testing.T) {
 }
 
 func TestInsertPanic(t *testing.T) {
-	defer func() { recover() }()
+	defer func() { _ = recover() }()
 	_ = Insert([]string{"0", "1", "2", "3", "4", "5"}, 7, "10")
 	t.Errorf("expected panic")
 }
