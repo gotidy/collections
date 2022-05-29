@@ -8,9 +8,9 @@
 
 Collections helpers
 
-- [Map](https://github.com/gotidy/collections/maps)
-- [Slice](https://github.com/gotidy/collections/slice)
-- [Set](https://github.com/gotidy/collections/set)
+- [Map](maps/README.md)
+- [Slice](slice/README.md)
+- [Set](set/README.md)
 
 ## Installation
 
